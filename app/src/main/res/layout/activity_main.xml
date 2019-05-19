@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:orientation="vertical">
+
+    <Button
+            android:id="@+id/btn_show_subscriptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Subscriptions"/>
+    <Button
+            android:id="@+id/btn_cancel_subscriptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel Subscriptions"/>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+          android:layout_margin="10dp"
+          android:background="@color/colorPrimaryDark"/>
+
+    <Button
+            android:id="@+id/btn_view_week"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View this weeks steps"/>
+
+    <Button
+            android:id="@+id/btn_view_today"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View today's steps"/>
+
+    <Button
+            android:id="@+id/btn_add_steps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add step data for today"/>
+
+    <Button
+            android:id="@+id/btn_update_steps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update step data for yesterday"/>
+
+    <Button
+            android:id="@+id/btn_delete_steps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete step data for yesterday"/>
+    
+</LinearLayout>
